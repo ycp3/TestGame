@@ -8,12 +8,12 @@ namespace TestGame
         private readonly int N;
         private readonly int Size;
 
-        private float[] _s;
-        private float[] _density;
-        private float[] _vx;
-        private float[] _vy;
-        private float[] _vx0;
-        private float[] _vy0;
+        private readonly float[] _s;
+        private readonly float[] _density;
+        private readonly float[] _vx;
+        private readonly float[] _vy;
+        private readonly float[] _vx0;
+        private readonly float[] _vy0;
 
         private readonly int _iterations;
         private readonly float _diff;
