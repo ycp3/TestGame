@@ -35,7 +35,7 @@ namespace TestGame
         {
             _side = 0;
             N = n;
-            _smoke = new Smoke(n, 1, 0.000001f, 0, 20);
+            _smoke = new Smoke(n, 1, 0.000001f, 0, 4);
             _position = new Vector2(0, 0);
             _speed = new Vector2(0, 0);
         }
